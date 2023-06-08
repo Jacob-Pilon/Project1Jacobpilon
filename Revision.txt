@@ -1,0 +1,65 @@
+- Dropdown for location option when booking appointment (either have multiple locations or possible appointments at customer's homes)
+
+- Add reviews tab to the navbar.
+
+- Need to put the hours, phone number and address on the footer or somewhere else on the page
+
+- Add price and short description on services page.
+
+- reorginize services/classes page, (left side is empty, maybe put picture)
+
+- Use calendar when entering date instead of typical format. 
+
+
+
+Ideas:
+Instead of 4 seperate images maybe a banner image with the buttons beneath.
+Change up the greenbar on left side
+
+
+
+
+
+
+
+Personas:
+
+Name:
+Tina MacFarlane
+
+Characterics:
+Lives with her husband in the suburbs of Ottawa with their two teenaged children
+Invests time and money into their dog "Bolto"
+Is 40 years old
+
+Relation to tech:
+Not intimately familiar with technology, but she enjoys spending time her phone browsing Facebook & Instagram.
+
+Relation to domain:
+Loves dogs, and Tina has grown up with them her whole life. Although she loves dogs, she does not have a deep knowledge of how to train them, which is the need this service is filling.
+
+It would be difficult to learn more about what kind of services your business offers; it would be great to see a page dedicated to listing services & have in depth description for each one.
+
+--------------------------------------------------------
+Charles wants to get dog training lessons for his dog, he is looking for a qualified trainer, and isn't very tech savvy.. He doesn't want to spend hours online booking something, so he'd rather a simple and easy site to use. In the given mockup frames this is provided and navigating the website is easy and simple. There is also an about page which shows the personality of the business which is something he looks for in such a personal service for his pet. I think he would also like to have a way to access a contact page in general, just so that he has an idea of the place's contact info without booking an appointment.
+
+-------------------------------------------
+
+Jen, 26, female, just graduated college for nursing. Jen just got her first dog and is looking for someone to train it as she is very busy with working at the hospital. Jen wants to know if there are packages available to sign up for a few months in advance as she knows her new dog would need training often as he is growing up.
+-------------------------------------------
+Persona Name: Emily Rodriguez
+
+Intrinsic Characteristics:
+
+Novice Dog Owner: Emily is a first-time dog owner who is enthusiastic about learning how to train and care for her new furry companion. She is eager to understand the fundamentals of dog training and develop a strong bond with her pet.
+Detail-Oriented: Emily pays close attention to instructions and values clear and concise information.
+Online Learner: Emily enjoys utilizing online platforms for learning and seeks digital resources that offer interactive training materials, and access to a community of dog owners and trainers.
+Relation to Technology and Domain:
+Emily is comfortable with technology and relies on digital platforms for various aspects of her life, including learning about dog training. She sees the dog training website as a valuable tool to acquire knowledge, access training materials, and connect with experts and fellow dog owners. .
+
+Emily's relationship with the domain of dog training is as a motivated learner seeking guidance and support.
+
+Goal:
+Emily's goal is to have access to personalized training plans and resources that cater to her specific dog breed and training goals. She wants the dog training website to provide breed-specific training tips, recommended training schedules, and guidance on addressing common breed-related behavioral issues.
+
+To meet Emily's goal, the designer can enhance the dog training website by incorporating a feature that offers breed-specific training recommendations. This feature would allow Emily to input her dog's breed and receive tailored training plans, highlighting breed-specific challenges and providing step-by-step training instructions.
