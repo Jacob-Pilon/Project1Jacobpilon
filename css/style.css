@@ -1,0 +1,46 @@
+p{
+    outline: 1px  red;
+}
+h1{
+    outline: 1px blue;
+
+}
+col{
+    outline: 1px, solid purple;
+}
+.navbar{
+    margin-bottom: 0;
+    border:5px solid #0F6427;
+    
+}
+
+
+*{
+    overflow: hidden;
+
+}
+
+
+
+/*Nav hyperlinks*/
+a:link{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #E3E1E1;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+    opacity: 74%;
+    background-color: transparent;
+    text-decoration: none;
+}
