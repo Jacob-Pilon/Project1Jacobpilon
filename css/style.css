@@ -1,25 +1,36 @@
-p{
-    outline: 1px  red;
-}
-h1{
-    outline: 1px blue;
 
-}
-col{
-    outline: 1px, solid purple;
-}
 .navbar{
     margin-bottom: 0;
     border:5px solid #0F6427;
-    
 }
 
 
 *{
-    overflow: hidden;
-
+    overflow: auto;
+    overflow-x: hidden;
+}
+.container{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.custom-btn{
+    font-size: 75px;
+    padding:10px 20px;
+    background-color: #53B1B7 !important;
+    opacity: 74%;
+}
+.custom-btn:hover{
+    background-color: #0F6427 !important;
 }
 
+.custom-btn2{
+    font-size: 50px;
+    padding:10px 20px;
+    background-color: #0F6427 !important;
+
+}
+.custom-btn2:hover{
+    background-color:#494343  !important;
+}
 
 
 /*Nav hyperlinks*/
@@ -39,7 +50,7 @@ a:hover{
     text-decoration: none;
 }
 a:active{
-    color: blue;
+    color: pink;
     opacity: 74%;
     background-color: transparent;
     text-decoration: none;
