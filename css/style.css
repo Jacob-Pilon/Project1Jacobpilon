@@ -31,6 +31,15 @@
 .custom-btn2:hover{
     background-color:#494343  !important;
 }
+.custom-btn3{
+    font-size: 30px;
+    padding:10px 20px;
+    background-color: #53B1B7 !important;
+
+}
+.custom-btn3:hover{
+    background-color:#494343  !important;
+}
 
 
 /*Nav hyperlinks*/

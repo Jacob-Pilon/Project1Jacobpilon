@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
     
 </head>
 
 <body style="background-color: #292525;">
-    <div class="container-fluid text-white" style="padding:0px; padding-left: 5px; padding-right: 10px; overflow: hidden">
+    <div class="container-fluid" style="padding:0px; padding-left: 10px; padding-right: 10px; color: white; height: 110px;">
         <div class="row">
         <!-- Navbar Image and text (focus on centering the text with the logo) -->
-        <nav class="navbar navbar-inverse" style="background-color: #0F6427; border-radius: 0; padding-right: 15px;">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html" style="font-size: small;">
+        <nav class="navbar navbar-inverse" style="background-color: #0F6427; border-radius: 0; padding-right: 15px; height: 110px; font-size: 30px;">
+            <div class="navbar-header" style="padding-top: 20px;">
+                <a class="navbar-brand" href="index.html" style="font-size: 30px;">
                     <img src="images/logo-Final.png" style="width: 45px; height: 60; float: left;"> GeeGees Dog Training
                 </a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="padding-top: 20px;">
                 <li><img src="images/linefinal.png" style="height: 40px; width: 25px; padding-top: 5px; padding-left: 10px;"></li>
                 <li><a href="aboutUs.html">About us</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -35,34 +38,114 @@
     </div>
         <!-- Horizontal column on the left side of the page -->
 <div class="container-fluid" style="padding: 0; color: white;">
-        <div class="row" style="outline: 1px solid blue;">
-            <div class="col-sm-12" style="background-color: #0F6427; height: 100vh; width: 85px; box-sizing: border-box;"></div>
-            
+        <div class="row">
+            <div class="col-sm-12" style="background-color: #0F6427; height: 100vh; width: 110px; box-sizing: border-box;"></div>
             
                 <!-- Fun time space-->
                 <div class="row">
                     <div class="col-sm-12 text-center" style="font-size: 60px; padding-top: 30px;">Book a session or join one of our classes!</div>
                 </div>
-                    <div class="row">
-                        <div class="col-lg-6" style="font-size: 45px;">
+                    <div class="row" style="padding-top: 20px;">
+                        <div class="col-lg-12 text-center" style="font-size: 30px;">
                         <input type="radio" name="service" value="classes">
-                            <label for="classes">classes</label>
+                            <label for="classes">Classes</label>
 
                         <input type="radio" name="gender" value="1-on-1">
                             <label for="1-on-1">1-on-1 session</label>
                         </div>  
+
                     </div>
                     <div class="row">
-                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6" style="color: black;">
+                            <p style="color: white;">Class date:</p>
+                            <input type="text" id="datepicker">
+                            <script>
+                                $(document).ready(function() {
+                                  $('#datepicker').datepicker();
+                                });
+                              </script>
+                        </div>
                     </div>
-                    <div class="row">    
+                    <div class="row">  
+                        <div class="col-sm-6 d-flex align-items-center justify-content-center" style="padding-top: 20px; color: black;"> 
+                            <ul class="list-group" style="width: 550px; padding-left: 1px;">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Monday Classes  ($30)
+                              <span class="badge bg-primary rounded-pill">8</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Tuesday Classes ($30)
+                              <span class="badge bg-primary rounded-pill">6</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Wednesday Classes ($30)
+                              <span class="badge bg-primary rounded-pill">6</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Thursday Classes ($30)
+                                <span class="badge bg-primary rounded-pill">5</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Friday Classes ($30)
+                                <span class="badge bg-primary rounded-pill">6</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Saturday Classes ($25)
+                                <span class="badge bg-primary rounded-pill">9</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Group Classes ($50)
+                                <span class="badge bg-primary rounded-pill">38</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Outdoor Classes ($75)
+                                <span class="badge bg-primary rounded-pill">24</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                1-on-1 classes ($150)
+                                <span class="badge bg-primary rounded-pill">30</span>
+                              </li>
+                          </ul> 
+                        </div>
+
+                        <div class="col-sm-6" style="padding: 20px;">
+                            <div class="form-group" style="width: 500px;">
+                                <p>First Name <input type="text" class="form-control" id="exampleInput" placeholder="Enter text">  </p>
+                                <p>Last Name <input type="text" class="form-control" id="exampleInput" placeholder="Enter text"> </p>
+                                <p> Pet Name  <input type="text" class="form-control" id="exampleInput" placeholder="Enter text"> </p>
+                                <p>Email  <input type="text" class="form-control" id="exampleInput" placeholder="Enter text"> </p>
+                                <p>Phone Number <input type="text" class="form-control" id="exampleInput" placeholder="Enter text"></p>
+                               
+                            </div>
+                           
+                        </div>
+                        
                     </div>
                 
                 <div class="row">
+                    <div class="text-center">
+                        <a href="bookingConfirmed.html" class="btn custom-btn3 btn-primary" style="">Confirm Booking!</a> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>   
+</div>
+<footer class="footer" style="color: white;">
+    <div class="row" style="background-color:#0F6427; padding:20px;">
+      <div class="col-sm-4 text-center">
+            Hours: 7 days a week, <br>11:00am-6:30pm 
+      </div>
+      <div class="col-sm-4 text-center">
+            Address:
+            <br> 2394 Parkdale Ave K1G 3Q4
+            <br> Ottawa ON, Canada
+      </div>
+      <div class="col-sm-4 text-center">
+            Phone Number:
+            <br> 287-292-1726
+      </div>
+  </div>
+</footer>   
 </body>
 </html>
